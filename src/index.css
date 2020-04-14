@@ -1,0 +1,284 @@
+#root{
+  height: auto;
+  width: auto;
+}
+
+body{
+  background-image: url("backgroundImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.outerDiv{
+  height: 100%;
+  width: auto;
+}
+
+.mainDiv{
+  margin: 20px;
+  height:100%;
+  text-align: center;
+}
+
+.dayBlocks{
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+}
+
+.weatherElements{
+  border: 1px solid black;
+  box-shadow:  5px 4px 60px -6px  #6A9BF8;
+  text-shadow: 2px 2px 8px #6A9BF8;
+  border-radius: 25px;
+  margin-top:0px;
+  width: 100px;
+  height: 220px;
+  padding: 30px;
+  color: white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #6A9BF8;
+}
+
+.inLine{
+  display: inline-block;
+  margin-left: 0px;
+}
+.leftSide{
+  float: right;
+  margin-left: 60px;
+  display: inline;
+}
+
+.tempElem{
+  display: inline-block;
+  margin:5px;
+  font-size: 13px;
+}
+
+.tempElem1{
+  display: inline-block;
+  margin:5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.humidity1{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.valueSpan1{
+  float: right;
+  margin-top:0px;
+  font-size: 10px;
+}
+
+.weatherDay{
+ text-align: center;
+}
+
+.weatherImages{
+  margin-left:15px;
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.mainDivContent{
+  margin:0;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.mainDivCon{
+  display: inline-block;
+  margin-top:0px;
+  text-align: left;
+}
+
+.mainDivImage{
+  height: 70px;
+  width: 70px;
+}
+
+h3{
+  margin-top: 0;
+  color: #4E9498;
+}
+
+h2,span{
+  color:white;
+  text-shadow: 1px 1px 10px  #9884db;
+  /*color:#9884db;
+  text-shadow: 1px 1px 10px  #f2e4f9;*/
+}
+
+h1{
+  color:white;
+  text-shadow: 1px 1px 10px  #9884db;
+  /*color:#9884db;
+  text-shadow: 1px 1px 10px  #f2e4f9;*/
+}
+
+.HourlyWeatherElem{
+  display: inline-block;
+  padding: 10px;
+  margin: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.weatherImagesHourly{
+  height: 60px;
+  width: 60px; 
+}
+
+.weatherElementsHourly{
+  border: 1px solid black;
+  box-shadow:  5px 4px 60px -6px  #6A9BF8;
+  text-shadow: 2px 2px 8px #6A9BF8;
+  border-radius: 25px;
+
+ 
+  /*border-bottom: 1px solid #D3DCDC;*/
+  margin-top: 80px;
+  width: 130px;
+  height: 200px;
+  padding: 10px;
+  color:white;
+  /*color: #4E9498;*/
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #517dac;
+}
+
+.wetherElementTime{
+  background-color:rgb(65, 62, 62);
+  color: #D3DCDC;
+  border-radius: 25px;
+  padding: 4px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.wetherElementDay{
+  background-color: #517dac;
+  text-shadow: 1px 1px 3px #3fc2ff;
+  color: white;
+  border-radius: 15px;
+  padding: 4px;
+  text-align: center;
+  width:110px;
+  margin-left: 0px;
+  margin-right: 7px;
+  margin-top:30px;
+   
+}
+
+.weatherTemp{
+  float:right;
+  margin-top:10px;
+  font-size:15px;
+}
+
+.humidity{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.weatherDesc{
+  font-size: 14px;
+}
+
+.valueSpan{
+  float: right;
+  margin-right:20px;
+  margin-top:9px;
+  font-size:14px;
+}
+
+.humidIcon{
+  margin-left: 25px;
+}
+
+.valueSpan1{
+  float: right;
+  margin-right:5px;
+  margin-top:9px;
+}
+
+.displayData{
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  text-shadow: 1px 1px 10px  #9884db;
+
+}
+
+.mainDivElemHead{
+  margin-bottom: 0px;
+  text-align: left;
+  float: left;
+}
+
+.mainDivElemHead1{
+  margin-bottom: 0px;
+
+  margin-top:10px;
+}
+
+.weatherElemContainer{
+display: inline-block;
+}
+
+.applicationHeading{
+  text-align: center;
+  font-size: 40px;
+}
+
+.locationField{
+  float: right;
+  margin-right: 100px;
+}
+
+input{
+  margin-right: 10px;
+  border:none;
+  border-bottom: 1px solid #C6A0ED;
+  text-align: center;
+  border-radius: 4px;
+  height: 28px;
+  background: transparent;
+  color:white;
+  text-shadow: 1px 1px 10px  #9884db;
+  font-size: 18px;
+}
+
+button{
+  margin-right: 10px;
+  border: 1px solid #C6A0ED;
+  text-align: center;
+  background-color: #517dac;
+  border-radius: 4px;
+  height: 28px;
+  width: 150px;
+  color:white;
+  text-shadow: 1px 1px 10px  #9884db;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.error{
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
